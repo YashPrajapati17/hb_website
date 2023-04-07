@@ -1,0 +1,40 @@
+.new_nav{
+    width: 100%;
+    height: 45px;
+    
+    position: relative;
+    top: 90px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.new_nav .nav_data{
+    display: flex;
+    justify-content:space-between;
+}
+
+.new_nav .nav_data .data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.new_nav .nav_data .data p.province{
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+.new_nav .nav_data .data p.selectprovince{
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* media query */
+@media (max-width:808px){
+    .new_nav{
+       display: none;
+    }
+}

@@ -1,0 +1,131 @@
+section{
+    position: relative;
+    width: 100%;
+    top: 60px;
+    min-height:100vh;   
+}
+
+.sign_container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_header img{
+    width: 80px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.sign_form{
+    border: 1px solid #c9c9c9;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;}
+
+.sign_form h1{
+    font-weight: 500;
+    font-size: 27px;
+    margin: 10px 0;
+}
+
+.sign_form label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.sign_form input{
+    width: 97%;
+    height: 27px;
+    border-radius: 3px;
+    outline: none;
+    border:1px solid #a6a6a6;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.sign_form .signin_btn{
+    margin-top: 7px;
+    margin-bottom: 23px;
+    width: 100%;
+    border-radius: 3px;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.sign_form input:focus{
+    box-shadow: 0 0 5px 0px #ffbc2c;
+}
+
+.sign_form .signin_info{
+    margin-top: 23px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sign_form .signin_info p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+}
+
+
+.sign_form .signin_info a{
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-left: 5px;
+    color: #0066c0;
+    text-decoration: none;
+    font-weight:600;
+}
+
+
+/* for login page */
+.create_accountinfo p{
+    font-size: 12px;
+    text-align: center;
+    color: #767676;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.create_accountinfo button{
+    margin-top: 7px;
+    padding-left: 1px;
+    margin-left: -1px;
+    margin-bottom: 23px;
+    width: 290px;
+    border-radius: 3px;
+    height: 45px;
+    background: #4a545c;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.create_accountinfo a{
+    text-decoration: none;
+    color: #111;
+    padding: 10px 35px;
+    letter-spacing: .5px;
+}

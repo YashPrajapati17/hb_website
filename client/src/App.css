@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightgray;
+  background: url("https://dthezntil550i.cloudfront.net/qp/latest/qp1907111421598760010008408/3400f45f-f215-4cc9-a206-0b3167ca8d4a.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+};
+
+.load{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load.h2{
+  margin-left: 10px;
+}

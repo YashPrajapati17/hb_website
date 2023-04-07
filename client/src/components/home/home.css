@@ -1,0 +1,8 @@
+.home_section{
+    width: 100%;
+    position: relative;
+    top: 60px;
+    min-height: calc(100vh - 60 px);
+    margin-bottom: 10px;
+    
+}
